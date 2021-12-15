@@ -9,22 +9,22 @@ function Sidebar() {
     const joinRoom1 = () => {
         localStorage.setItem("roomId", "Room1")
         const roomId = localStorage.getItem("roomId")
-        window.location = (`/${roomId}`)
+        window.location = (`/`)
     }
     const joinRoom2 = () => {
         localStorage.setItem("roomId", "Room2")
         const roomId = localStorage.getItem("roomId")
-        window.location = (`/${roomId}`)
+        window.location = (`/`)
     }
     const joinRoom3 = () => {
         localStorage.setItem("roomId", "Room3")
         const roomId = localStorage.getItem("roomId")
-        window.location = (`/${roomId}`)
+        window.location = (`/`)
     }
     const joinRoom4 = () => {
         localStorage.setItem("roomId", "Room4")
         const roomId = localStorage.getItem("roomId")
-        window.location = (`/${roomId}`)
+        window.location = (`/`)
     }
 
 

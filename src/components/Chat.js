@@ -61,6 +61,7 @@ function Chat() {
 
     return (
         <div id="chat">
+        <h1 style={{color: "white"}}>Welcome in {roomId}</h1>
             <div className="chat">
                 <div>
                     { messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
